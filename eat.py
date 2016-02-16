@@ -1,5 +1,7 @@
 from flask import Flask, render_template
-from forms import *
+
+import forms
+import models
 
 app = Flask(__name__)
 

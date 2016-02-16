@@ -5,3 +5,4 @@ class AreYouHungry(Form):
     yesOrNo = BooleanField("Feeling Hungry?", [validators.Required()])
 
 class User(Form):
+    username = CharField(unique=True)
